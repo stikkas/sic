@@ -1,0 +1,6 @@
+[submodule "qq-web"]
+	path = qq-web
+	url = file:///home/basa/Repos/qq-web
+[submodule "storage-web"]
+	path = storage-web
+	url = file:///home/basa/Repos/storage-web
