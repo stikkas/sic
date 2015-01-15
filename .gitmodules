@@ -1,6 +1,7 @@
 [submodule "qq-web"]
 	path = qq-web
-	url = file:///home/basa/Repos/qq-web
+	url = https://github.com/stikkas/qq-web.git
 [submodule "storage-web"]
 	path = storage-web
-	url = file:///home/basa/Repos/storage-web
+	url = https://github.com/stikkas/storage-web.git
+
