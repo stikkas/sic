@@ -102,11 +102,11 @@
                     </security>
                 </datasource>
                 <datasource jta="true" jndi-name="java:jboss/SicDS" pool-name="SicDS" enabled="true" use-ccm="false">
-                    <connection-url>jdbc:oracle:thin:@localhost:1521:hawk</connection-url>
+                    <connection-url>jdbc:oracle:thin:@localhost:1521:sic</connection-url>
                     <driver-class>oracle.jdbc.OracleDriver</driver-class>
                     <driver>ojdbc7.jar</driver>
                     <security>
-                        <user-name>user</user-name>
+                        <user-name>sic</user-name>
                         <password>password</password>
                     </security>
                     <validation>
