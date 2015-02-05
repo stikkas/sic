@@ -4,4 +4,6 @@
 [submodule "storage-web"]
 	path = storage-web
 	url = https://github.com/stikkas/storage-web.git
-
+[submodule "storage-ejb"]
+	path = storage-ejb
+	url = https://github.com/stikkas/storage-ejb.git
