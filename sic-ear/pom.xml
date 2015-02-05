@@ -29,6 +29,12 @@
 			<version>${project.version}</version>
 			<type>war</type>
 		</dependency>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>storage-ejb</artifactId>
+			<version>${project.version}</version>
+			<type>ejb</type>
+		</dependency>
 	 <dependency>
 	  <groupId>${project.groupId}</groupId>
 	  <artifactId>ext-commons</artifactId>
@@ -63,6 +69,10 @@
 							<groupId>${project.groupId}</groupId>
 							<artifactId>storage-web</artifactId>
 						</webModule>
+						<ejbModule>
+							<groupId>${project.groupId}</groupId>
+							<artifactId>storage-ejb</artifactId>
+						</ejbModule>
 					</modules>
 				</configuration>
 			</plugin>

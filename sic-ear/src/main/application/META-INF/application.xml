@@ -4,6 +4,10 @@
 			 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_6.xsd"
 			 version="6">
 	<display-name>sic-ear</display-name>
+
+	<module>
+		<ejb>storage-ejb-1.0-SNAPSHOT.jar</ejb>
+	</module>
 	<module>
 		<web>
 			<web-uri>qq-web-1.0-SNAPSHOT.war</web-uri>
