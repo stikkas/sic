@@ -31,6 +31,12 @@
 		</dependency>
 		<dependency>
 			<groupId>${project.groupId}</groupId>
+			<artifactId>qq-ejb</artifactId>
+			<version>${project.version}</version>
+			<type>ejb</type>
+		</dependency>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
 			<artifactId>storage-ejb</artifactId>
 			<version>${project.version}</version>
 			<type>ejb</type>
@@ -69,6 +75,10 @@
 							<groupId>${project.groupId}</groupId>
 							<artifactId>storage-web</artifactId>
 						</webModule>
+						<ejbModule>
+							<groupId>${project.groupId}</groupId>
+							<artifactId>qq-ejb</artifactId>
+						</ejbModule>
 						<ejbModule>
 							<groupId>${project.groupId}</groupId>
 							<artifactId>storage-ejb</artifactId>

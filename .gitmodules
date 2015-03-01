@@ -7,3 +7,6 @@
 [submodule "storage-ejb"]
 	path = storage-ejb
 	url = https://github.com/stikkas/storage-ejb.git
+[submodule "qq-ejb"]
+	path = qq-ejb
+	url = https://github.com/stikkas/qq-ejb.git

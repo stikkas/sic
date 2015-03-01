@@ -6,6 +6,9 @@
 	<display-name>sic-ear</display-name>
 
 	<module>
+		<ejb>qq-ejb-1.0-SNAPSHOT.jar</ejb>
+	</module>
+	<module>
 		<ejb>storage-ejb-1.0-SNAPSHOT.jar</ejb>
 	</module>
 	<module>

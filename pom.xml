@@ -11,7 +11,9 @@
   <modules>
     <module>sic-ear</module>
     <module>qq-web</module>
+    <module>qq-ejb</module>
     <module>storage-web</module>
     <module>storage-ejb</module>
   </modules>
 </project>
+
